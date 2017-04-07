@@ -24,7 +24,8 @@ define('NONCE_SALT',       getenv('NONCE_SALT'));
 define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 define('MYSQL_SSL_CA', dirname(__FILE__) . '/dbcert.pem');
 // Disable FS Modification
-define('DISALLOW_FILE_MODS', true);
+// true by default - prevent adding new plugins
+define('DISALLOW_FILE_MODS', false);
 $table_prefix  = 'wp_';
 define('WP_DEBUG', getenv('WP_DEBUG') || false);
 if ( !defined('ABSPATH') )
