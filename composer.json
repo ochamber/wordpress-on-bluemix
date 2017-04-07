@@ -26,7 +26,9 @@
                     "reference": "4.7.3"
                 },
                 "require": {
-                    "fancyguy/webroot-installer": "1.0.0"
+                    "fancyguy/webroot-installer": "1.0.0",
+		    "wpackagist-plugin/akismet"			: "*",
+		    "wpackagist-theme/twentyfourteen"             : "*"
                 }
             }
         }
