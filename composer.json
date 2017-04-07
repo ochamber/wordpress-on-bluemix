@@ -49,10 +49,7 @@
 	    "wpackagist-plugin/wp-cirrus"			: "*",
 	    "wpackagist-plugin/wp-clone-by-wp-academy"	: "*",
         "wpackagist-theme/twentyfourteen"             : "*",
-        "wpackagist-theme/twentythirteen"             : "*",
-        "wpackagist-theme/twentytwelve"               : "*",
-        "wpackagist-theme/twentyten"               : "*"
-
+        "wpackagist-theme/twentythirteen"             : "*"
     },
     "extra": {
         "webroot-dir": "content",
