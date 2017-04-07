@@ -19,11 +19,11 @@
             "package": {
                 "name": "wordpress/wordpress",
                 "type": "webroot",
-                "version": "4.7.1",
+                "version": "4.7.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/WordPress/WordPress.git",
-                    "reference": "4.7.1"
+                    "reference": "4.7.3"
                 },
                 "require": {
                     "fancyguy/webroot-installer": "1.0.0"
@@ -40,7 +40,17 @@
         "wordpress/wordpress": "4.7.*",
         "wpackagist-plugin/captcha":">=3.9",
         "wpackagist-theme/hueman":"*",
-        "wpackagist-plugin/secure-db-connection": "*"
+        "wpackagist-plugin/secure-db-connection": "*",
+        "wpackagist-plugin/akismet"			: "*",
+	  	"wpackagist-plugin/google-analytics-for-wordpress"	: "*",
+	    "wpackagist-plugin/tag-pages"			: "*",
+	    "wpackagist-plugin/wp-cirrus"			: "*",
+	    "wpackagist-plugin/wp-clone-by-wp-academy"	: "*",
+        "wpackagist-theme/twentyfourteen"             : "*",
+        "wpackagist-theme/twentythirteen"             : "*",
+        "wpackagist-theme/twentytwelve"               : "*",
+        "wpackagist-theme/twentyten"               : "*"
+
     },
     "extra": {
         "webroot-dir": "content",
